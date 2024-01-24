@@ -8,7 +8,7 @@ interface PairInfo {
   address: string;
 }
 function displayName(name?: string) {
-  return name?.replace("/", " - ");
+  return name?.replace("/", " - ").toUpperCase();
 }
 
 export function PairSelector() {
